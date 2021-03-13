@@ -13,8 +13,8 @@ I was motivated to do this because I am of the opinion that the "Encoding settin
 an otherwise nicely formatted output look cluttered and ugly.  
 This template omits that section.
 
-Commandline Example
-mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'
+Commandline Example  
+```mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'```
 
 Some data are blank due to the file not having that info.
 If your file has no information for the "Section", the entire section will be seemlessly omitted.
