@@ -50,7 +50,7 @@ Chapters_End
 ```
 I beleive this is for HTML table formatted output on where to place the output.
 
-Mediainfo standard output can also display cahpter information.
+Mediainfo standard output can also display chapter information.
 Such as.
 ```
 Menu
