@@ -15,3 +15,6 @@ This template omits that section.
 
 Commandline Example
 mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'
+
+Some data are blank due to the file not having that info.
+Works equally well with Video and Audio files.
