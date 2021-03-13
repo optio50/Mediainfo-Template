@@ -65,3 +65,4 @@ Menu
 00:36:46.760                             : :Chapter 8
 ```
 A recent post by the developer indicated this is not available in the INFORM custom template.
+[No Chapters in Custom Inform] (https://sourceforge.net/p/mediainfo/discussion/297610/thread/9182ad3d06/)
