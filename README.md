@@ -27,6 +27,7 @@ I can only come close to replicating this "$if(%Value%)" but a blank line is sti
 Until I figure this out I have not included it.
 
 I am also unsure about the examples that include
+```
 File_Begin;
 File_End;
 Page_Begin;
@@ -46,13 +47,14 @@ Text_End
 Chapters_Begin
 Chapters_Middle
 Chapters_End
-
+```
 I beleive this is for HTML table formatted output on where to place the output.
 
 Mediainfo standard output can also display cahpter information.
 Such as.
+```
 Menu
-00:00:00.000    : :Chapter 1
+00:00:00.000                             : :Chapter 1
 00:06:40.640                             : :Chapter 2
 00:11:49.680                             : :Chapter 3
 00:16:50.680                             : :Chapter 4
@@ -60,5 +62,5 @@ Menu
 00:25:59.400                             : :Chapter 6
 00:29:58.200                             : :Chapter 7
 00:36:46.760                             : :Chapter 8
-
+```
 A recent post by the developer indicated this is not available in the INFORM custom template.
