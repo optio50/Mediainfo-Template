@@ -20,13 +20,13 @@ Some data are blank due to the file not having that info.
 If your file has no information for the "Section", the entire section will be seemlessly omitted.
 Works equally well with Video and Audio files.
 
-I am still uncertain about a few things.
-For instance.
-In the standard regular output of Mediainfo if a value is null it is conveiently removed / deleted.
-I can only come close to replicating this "$if(%Value%)" but a blank line is still printed (undesirable).
-Until I figure this out I have not included it.
+I am still uncertain about a few things.  
+For instance.  
+In the standard regular output of Mediainfo if a value is null it is conveiently removed / deleted.  
+I can only come close to replicating this "$if(%Value%)" but a blank line is still printed (undesirable).  
+Until I figure this out I have not included it.  
 
-I am also unsure about the examples that include
+I am also unsure about the examples that include  
 ```
 File_Begin;
 File_End;
