@@ -52,7 +52,7 @@ I beleive this is for HTML table formatted output on where to place the output.
 Mediainfo standard output can also display cahpter information.
 Such as.
 Menu
-00:00:00.000                             : :Chapter 1
+00:00:00.000    : :Chapter 1
 00:06:40.640                             : :Chapter 2
 00:11:49.680                             : :Chapter 3
 00:16:50.680                             : :Chapter 4
