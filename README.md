@@ -17,7 +17,7 @@ Commandline Example
 ```mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'```
 
 Some data are blank due to the file not having that info.
-If your file has no information for the "Section", the entire section will be seemlessly omitted.
+If your file has no information for the "Section", such as an mp3 file. The entire video section will be seemlessly omitted.
 Works equally well with Video and Audio files.
 
 I am still uncertain about a few things.  
