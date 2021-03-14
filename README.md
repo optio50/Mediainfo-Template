@@ -12,7 +12,7 @@ Also included is ALL parameter file. This file lists every available data type.
 I was motivated to do this because I am of the opinion that the "Encoding settings"  
 takes up way too much space and makes an otherwise nicely formatted output  
 look cluttered and ugly.  
-This template omits that section.
+This template omits that data point.
 
 Commandline Example  
 ```mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'```
