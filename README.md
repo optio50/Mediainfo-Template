@@ -13,8 +13,10 @@ I was motivated to do this because I am of the opinion that the "Encoding settin
 takes up way too much space and makes an otherwise nicely formatted output look cluttered and ugly.    
 This template omits that data point.
 
-Commandline Example  
-```mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'```
+Commandline Example Standard Inform File  
+```mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'```  
+Commandline Example $if() Inform File piped to "TR" to remove blank lines
+```mediainfo --Inform=file:///Path/To-File/Inform-Example2.txt '/media/POOL/Temp/Blue Planet II - S01E02 - The Deep.mkv' | tr -s '\n'```  
 
 Some data are blank due to the file not having that info.
 If your file has no information for the "Section", such as an mp3 file. The entire video section will be seemlessly omitted.
