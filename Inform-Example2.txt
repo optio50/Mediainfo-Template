@@ -1,0 +1,90 @@
+General;"
+============================================================================================
+				[38;5;166mM E D I A I N F O(B[m
+
+General
+============================================================================================
+$if(%CompleteName%,FileName..............: %CompleteName%,)
+$if(%Title%,Title.................: %Title%,)
+$if(%Collection%,Collection............: %Collection%,)
+$if(%Season%,Episode...............: %Season%,)
+$if(%FileSize/String4%,Size..................: %FileSize/String4%,)
+$if(%File_Modified_Date_Local%,Last Modified.........: %File_Modified_Date_Local%,)
+$if(%OverallBitRate/String%,Overall Bitrate.......: %OverallBitRate/String%,)
+$if(%FrameRate/String%,Frame Rate............: %FrameRate/String%,)
+$if(%Format%,Format................: %Format%,)
+$if(%Format_Version%,Format Version........: %Format_Version%,)
+$if(%Duration/String1%,Duration..............: %Duration/String1%,)
+$if(%Video_Format_WithHint_List%,Video Codecs..........: %Video_Format_WithHint_List%,)
+$if(%Audio_Format_WithHint_List%,Audio Codecs..........: %Audio_Format_WithHint_List%,)
+$if(%VideoCount%,Video Count...........: %VideoCount%,)
+$if(%AudioCount%,Audio Count...........: %AudioCount%,)
+$if(%TextCount%,Text Count............: %TextCount%,)
+$if(%Track/Position%,Track.................: %Track/Position%,)
+$if(%Album%,Album.................: %Album%,)
+$if(%Performer%,Performer.............: %Performer%,)
+$if(%Genre%,Genre.................: %Genre%,)
+$if(%Cover%,Cover.................: %Cover%,)\n
+|"
+
+Video;"
+==============================================
+Video %StreamKindPos%
+==============================================
+$if(%ID/String%,ID....................: %ID/String%,)
+$if(%Format_Commercial%%Format/Info%,Format................: %Format_Commercial% %Format/Info%,)
+$if(%Width%%Height%,Resolution............: %Width%x%Height%,)
+$if(%DisplayAspectRatio/String%,Aspect Ratio..........: %DisplayAspectRatio/String%,)
+$if(%Format_Profile%,Codec.Profile.........: %Codec/String%%Format_Profile%,)
+$if(%CodecID%,Codec ID..............: %CodecID%,)
+$if(%Duration/String1%,Duration..............: %Duration/String1%,)
+$if(%StreamSize/String%,Stream Size...........: %StreamSize/String%,)
+$if(%BitRate/String%,Bit Rate..............: %BitRate/String%,)
+$if(%BitDepth/String%,Bit Depth.............: %BitDepth/String%,)
+$if(%FrameRate% fps,Framerate.............: %FrameRate% fps,)
+$if(%FrameRate_Mode%,Frame Rate Mode.......: %FrameRate_Mode%,)
+$if(%Encoded_Library_Name%,Encoding Library......: %Encoded_Library_Name%,)
+$if(%Default%,Default...............: %Default%,)\n
+|"
+
+Audio;"
+==============================================
+Audio %StreamKindPos%
+==============================================
+$if(%ID/String%,ID....................: %ID/String%,)
+$if(%Language/String%,Audio.................: %Language/String%,)
+$if(%Title%,Title.................: %Title%,)
+$if(%Format_Commercial%,Format................: %Format_Commercial% %Format/Info%,)
+$if(%CodecID%,Codec ID..............: %CodecID%,)
+$if(%Duration/String1%,Duration..............: %Duration/String1%,)
+$if(%FrameRate%,Frame Rate............: %FrameRate%,)
+$if(%BitRate/String%,Bit Rate..............: %BitRate/String%,)
+$if(%BitRate_Mode%,Bitrate Mode..........: %BitRate_Mode%,)
+$if(%BitDepth/String%,Bit Depth.............: %BitDepth/String%,)
+$if(%SamplingRate/String%,Sampling Rate.........: %SamplingRate/String%,)
+$if(%StreamSize/String%,Stream Size...........: %StreamSize/String%,)
+$if(%Default%,Default...............: %Default%,)
+$if(%ChannelPositions%,Channel Layout........: %ChannelPositions%,)
+Channels..............: %Channel(s)/String%\n
+|"
+Text;"
+==============================================
+Subtitle %StreamKindPos%
+==============================================
+$if(%ID%,ID....................: %ID%,)
+$if(%StreamKind/String%,Stream Kind...........: %StreamKind/String%,)
+$if(%Title%,Title.................: %Title%,)
+$if(%Format/Info%,Format................: %Format_Commercial% %Format/Info%,)
+$if(%CodecID%,Codec ID..............: %CodecID%,)
+$if(%ElementCount%,Element Count.........: %ElementCount%,)
+$if(%StreamSize/String%,Stream Size...........: %StreamSize/String%,)
+$if(%Default%,Default...............: %Default%,)
+$if(%Forced%,Forced................: %Forced%,)
+$if(%Language/String%,Language..............: %Language/String%,)\n
+|"
+Menu;"
+==============================================
+Chapters %StreamKindPos%
+==============================================
+$if(%Chapters_Pos_Begin%,Chapter Pos Begin.....: %Chapters_Pos_Begin%,)
+$if(%Chapters_Pos_End%,Chapter Pos End.....: %Chapters_Pos_End%,)\n"
