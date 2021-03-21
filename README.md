@@ -1,5 +1,6 @@
 # Mediainfo-Template
 ![ScreenShot](https://raw.githubusercontent.com/optio50/Mediainfo-Template/main/MediaInfo-Custom-Template.png?raw=true|alt=octocat)
+![ScreenShot](https://raw.githubusercontent.com/optio50/Mediainfo-Template/main/MediaInfo-Custom-Template2.png?raw=true|alt=octocat)
 
 Mediainfo Custom Template Example
 
