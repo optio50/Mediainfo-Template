@@ -1,7 +1,7 @@
 # Mediainfo-Template
 Commandline Example Standard Inform File  
 ```mediainfo --Inform=file:///Path/To-File/Inform-Example.txt 'Blue Planet II - S01E02 - The Deep.mkv'```  
-![ScreenShot](https://raw.githubusercontent.com/optio50/Mediainfo-Template/main/MediaInfo-Custom-Template.png?raw=true|alt=octocat)
+![ScreenShot](https://raw.githubusercontent.com/optio50/Mediainfo-Template/main/MediaInfo-Custom-Template.png?raw=true|alt=octocat)  
 Commandline Example $if() Inform File piped to "TR" to remove blank lines  
 ```mediainfo --Inform=file:///Path/To-File/Inform-Example2.txt '/media/POOL/Temp/Blue Planet II - S01E02 - The Deep.mkv' | tr -s '\n'```  
 ![ScreenShot](https://raw.githubusercontent.com/optio50/Mediainfo-Template/main/MediaInfo-Custom-Template2.png?raw=true|alt=octocat)
