@@ -35,7 +35,7 @@ I am still uncertain about a few things.
 For instance.  
 In the standard regular output of Mediainfo if a value is null it is conveiently removed / deleted.  
 I can only come close to replicating this ```$if(%Value%)``` but a blank line is still printed (undesirable).  
-Use the TR to remove the blank line as demonstrated above in the second example.  
+Use the TR command to remove the blank line as demonstrated above in the second example.  
 
 I am also unsure about the examples that include  
 ```
