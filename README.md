@@ -23,7 +23,9 @@ You dont have to cram them all on one line if you quote the "Sections" from begi
 Also included is ALL parameter file. This file lists every available data type.  
 I was motivated to do this because I am of the opinion that the "Encoding settings"  
 takes up way too much space and makes an otherwise nicely formatted output look cluttered and ugly.    
-This template omits that data point.
+This template omits that data point.  
+
+If you want to make a fully custom mediainfo ouput check out my "Mipy" repository. https://github.com/optio50/mipy
 
  
 
